@@ -1,0 +1,31 @@
+i have studied and practised all the 26 python packages and they are :
+
+Requests - Python HTTP library
+Parsel - Web scraping utility
+Regular Expressions (re) - Python Regex
+JSON - Working with JSON in Python
+CSV - Handling CSV files in Python
+PyMongo - MongoDB Python driver
+Scrapy - Web scraping framework
+
+    Request, FormRequest, Response, Shell, inspect_response, Selector
+
+Selenium - Browser automation
+Playwright - Browser automation
+Pika - Python RabbitMQ client
+Logging - Python logging module
+AST - Abstract Syntax Trees
+Datetime - Working with dates and times
+Urllib - URL handling module
+Time - Time-related functions
+XML - Extensible Markup Language
+lxml - XML and HTML processing
+Base64 - Base64 encoding and decoding
+OS - Operating system interface
+Random - Random number generation
+FTPLib - FTP protocol support
+Dropbox - Dropbox API
+Boto3 - AWS SDK for Python
+Cloudscraper - Bypassing bot protection
+Js2Py - JavaScript to Python conversion
+IPython - Interactive Python environment

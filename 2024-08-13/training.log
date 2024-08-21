@@ -1,0 +1,21 @@
+Prerequisites
+
+    Learned about the open-source community.
+    Basic understanding of the internet and servers.
+    Studied HTTP/HTTPS and status codes.
+    Introduction to APIs.
+    Learned Git and its commands.
+    Covered data formats like JSON, CSV, TSV, and XML.
+
+Python Basics
+
+    Practiced indentation with spaces and tabs.
+    Worked with basic data types: str, int, float, bool, list, dict, tuple, set, None.
+    Learned if else statements and loops.
+    Created functions and used return and yield.
+    Studied object-oriented programming (OOP), including classes and constructors.
+    Learned file operations.
+    Handled errors with try and except.
+    Practiced string formatting.
+    Used list comprehensions.
+    Followed Python standards (PEP8) for writing clean code.
