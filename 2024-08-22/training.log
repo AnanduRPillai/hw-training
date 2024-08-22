@@ -11,3 +11,5 @@ Key Requirements
         The employee’s name and ID.
         The time they logged in and logged out.
         A list of all the tasks they worked on, including start and end times and whether each task was successful.
+
+Also, I have completed all the given browser analysis methods.
