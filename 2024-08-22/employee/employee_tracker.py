@@ -39,7 +39,7 @@ class WorkDayTracker:
         self.day_end_time = datetime.now()
         print(f"{self.employee_name} finished their day at {self.day_end_time}")
 
-        # Create JSON file with all the details
+    
         day_summary = {
             "employee_name": self.employee_name,
             "employee_id": self.employee_id,
@@ -54,7 +54,7 @@ class WorkDayTracker:
         print(f"Day's work saved to {file_name}")
 
 
-# Example usage with user input:
+
 if __name__ == "__main__":
     employee_name = input("Enter employee name: ")
     employee_id = int(input("Enter employee ID: "))
