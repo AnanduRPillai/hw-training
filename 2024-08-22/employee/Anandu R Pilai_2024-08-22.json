@@ -1,0 +1,22 @@
+{
+    "employee_name": "Anandu R Pilai",
+    "employee_id": 7,
+    "day_start_time": "2024-08-22 11:30",
+    "day_end_time": "2024-08-22 11:31",
+    "tasks": [
+        {
+            "task_title": "Data Mining",
+            "task_description": "Aim is to mine the data",
+            "start_time": "2024-08-22 11:30",
+            "end_time": "2024-08-22 11:30",
+            "task_successful": false
+        },
+        {
+            "task_title": "data mining",
+            "task_description": "aim to mine the data",
+            "start_time": "2024-08-22 11:30",
+            "end_time": "2024-08-22 11:30",
+            "task_successful": true
+        }
+    ]
+}

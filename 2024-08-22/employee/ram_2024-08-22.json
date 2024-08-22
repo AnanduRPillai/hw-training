@@ -1,0 +1,15 @@
+{
+    "employee_name": "ram",
+    "employee_id": 10,
+    "day_start_time": "2024-08-22 11:31",
+    "day_end_time": "2024-08-22 11:31",
+    "tasks": [
+        {
+            "task_title": "data analysis",
+            "task_description": "aim to analyse the data",
+            "start_time": "2024-08-22 11:31",
+            "end_time": "2024-08-22 11:31",
+            "task_successful": true
+        }
+    ]
+}

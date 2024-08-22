@@ -1,0 +1,13 @@
+i havce completed basic python program that tracks the employees do throughout the workday.
+
+Key Requirements
+
+    - Daily Logs: Every day, the system should create a separate file (in JSON format) for each employee. This file will keep track of all the tasks that the employee worked on that day.
+    - Login and Logout: The employee should log in to the system when they start their day and log out when they finish. The system will record these times.
+    - Task Management:
+        Start Task: When an employee begins a task, they should log the start time and provide a brief description of the task.
+        End Task: When they finish the task, they log the end time and indicate whether the task was completed successfully.
+    - File Structure: At the end of the day, the system should generate a JSON file containing:
+        The employee’s name and ID.
+        The time they logged in and logged out.
+        A list of all the tasks they worked on, including start and end times and whether each task was successful.
