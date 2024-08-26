@@ -1,0 +1,14 @@
+Completed all topics related to MongoDB:
+
+    -Insertion, deletion, updating, and bulk insertion of data
+    -Exporting, importing, dumping, and restoring data
+    -Use of GUI tools like Compass
+    -Sharding, clustering, and nodes
+    -Indexing, including unique key indexing
+    -Understanding of object IDs and timestamp generation
+    -MongoDB guidelines
+    -Collection and database sharding
+    -Naming standards for collections and databases
+    -Data backup procedures
+
+Additionally, studied a brief overview of PostgreSQL (psql).
