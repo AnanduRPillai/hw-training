@@ -1,0 +1,13 @@
+I have studied PostgreSQL (psql) and MySQL today, covering the following topics:
+
+    -Overview of PostgreSQL and MySQL.
+    -Data models used by each (object-relational for PostgreSQL, relational for MySQL).
+    -SQL compliance levels.
+    -Performance characteristics, focusing on read/write operations.
+    -Data types and extensions supported.
+    -ACID compliance and transaction handling.
+    -Indexing methods and query optimization.
+    -Replication and clustering capabilities.
+    -Security features in both databases.
+    -Community support and licensing.
+    -Common use cases for each database.
