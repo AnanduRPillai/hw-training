@@ -1,0 +1,13 @@
+I have installed and run MongoDB and have explored the following:
+
+    -Insertion, deletion, update, and bulk insertion
+    -Exporting, importing, dumping, and restoring data
+    -Using GUI tools such as Compass
+    -Sharding, clustering, and nodes
+    -Indexing
+    -Understanding Object IDs and generating timestamps from them
+    -Following MongoDB guidelines
+    -Indexing with unique keys
+    -Sharding of collections and databases
+    -Naming standards for collections and databases
+    -Data backup procedures
