@@ -1,4 +1,5 @@
 import requests
+import json
 from parsel import Selector
 
 class BHHSAMBCrawler:
@@ -6,6 +7,7 @@ class BHHSAMBCrawler:
         self.start_url = 'https://www.bhhsamb.com/CMS/CmsRoster/RosterSection?layoutID=963&pageSize=10&pageNumber=1&sortBy=random'
         self.agent_count = 0
         self.max_agents = 1120
+
         self.headers = {
             'Accept': '*/*',
             'Accept-Encoding': 'gzip, deflate',
@@ -28,17 +30,18 @@ class BHHSAMBCrawler:
         self.parse(response.text, 1)
 
     def parse(self, response_text, page):
-        sel = Selector(text=response_text)
+        sel = Selector(response_text)
         agent_links = sel.xpath('//a[@class="site-roster-card-image-link"]//@href').extract()
 
-        with open('agent_urls.txt', 'a') as file:
-            for link in agent_links:
-                if self.agent_count < self.max_agents:
-                    agent_url = f"https://www.bhhsamb.com{link}"
-                    file.write(agent_url + '\n')
-                    self.agent_count += 1
-                else:
-                    break
+        bio_links = [f"https://www.bhhsamb.com{link}" for link in agent_links]
+
+        with open('crawler.json', 'a') as file:
+            json.dump(bio_links, file, indent=2)
+
+        self.agent_count += len(bio_links)
+        if self.agent_count >= self.max_agents:
+            print('Reached the target number of agents')
+            return
 
         page += 1
         next_page = f'https://www.bhhsamb.com/CMS/CmsRoster/RosterSection?layoutID=963&pageSize=10&pageNumber={page}&sortBy=random'
@@ -47,5 +50,5 @@ class BHHSAMBCrawler:
             self.parse(response.text, page)
 
 if __name__ == "__main__":
-    crawler = BHHSAMBCrawler()
-    crawler.start_requests()
+    spider = BHHSAMBCrawler()
+    spider.start_requests()
