@@ -1,0 +1,6 @@
+I have completed both crawling and parsing as per required.
+
+Also, I extracted more than 1000 datas by crawling and parsing seperatly and stored in json file in line by line format.
+
+My codes also make use of logging, pymongo for storage and time package inorder to enhance the code to run as per required.
+
