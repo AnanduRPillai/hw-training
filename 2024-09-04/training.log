@@ -1,0 +1,6 @@
+I have edited and also updated the code of parser.py and below are the changes that I made in my code.
+
+-Field Defaults: If a field (e.g., social media links, description) is not found on the page, it will be set to None (which will be represented as null in JSON).
+-Address Formatting: The address is formatted by removing extra spaces and replacing any occurrence of \r\n with commas.
+-JSON Lines Format: The save_to_file method writes each agent's data as a separate JSON object on a new line in the agents_data.jsonl file.
+-Logging: The logger is set up to capture and display errors and information during execution.
