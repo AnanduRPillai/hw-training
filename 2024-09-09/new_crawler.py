@@ -98,7 +98,7 @@ class BHHSAMBCrawler:
 
         if self.agent_count >= self.max_agents:
             self.logger.info('Reached the target number of agents')
-            with open('new_crawler.json', 'a') as file:
+            with open('new_crawker.json', 'a') as file:
                 file.write(']\n')
             return
 
