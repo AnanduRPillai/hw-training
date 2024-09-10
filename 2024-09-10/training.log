@@ -1,0 +1,8 @@
+Today, I have studied this all topics:
+
+Anti-scraping Measures and Evasion Techniques:
+
+    -IP Blocking: Studied techniques websites use to block scrapers based on IP and explored evasion strategies like rotating proxies and VPNs.
+    -Headers-based Blocking: Learned how websites detect scrapers based on HTTP headers and studied methods for using realistic headers to avoid detection.
+    -Crawling Pattern Detection: Understood how websites identify abnormal request patterns and methods to randomize request intervals, delays, and navigation paths.
+    -CAPTCHA Verification: Studied how CAPTCHA challenges are used to block bots and explored strategies like CAPTCHA-solving services, automated solving, and browser-based scraping tools to bypass them.
