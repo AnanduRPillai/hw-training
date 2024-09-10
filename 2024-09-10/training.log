@@ -6,3 +6,5 @@ Anti-scraping Measures and Evasion Techniques:
     -Headers-based Blocking: Learned how websites detect scrapers based on HTTP headers and studied methods for using realistic headers to avoid detection.
     -Crawling Pattern Detection: Understood how websites identify abnormal request patterns and methods to randomize request intervals, delays, and navigation paths.
     -CAPTCHA Verification: Studied how CAPTCHA challenges are used to block bots and explored strategies like CAPTCHA-solving services, automated solving, and browser-based scraping tools to bypass them.
+    -JavaScript Validation: Studied how websites use JavaScript to detect bots and how to handle it with browser automation tools like Selenium.
+    -Premium Services (PerimeterX, Distil Networks, reCAPTCHA): Looked into advanced security services and possible ways to bypass them using proxies and CAPTCHA-solving tools.
