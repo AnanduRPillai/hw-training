@@ -1,0 +1,7 @@
+Today, I attempted to crawl the product links from the website URL https://www.fressnapf.de/.
+I successfully crawled the products from both the Dogs and Cats categories as follows:
+
+-Dogs category: 324 out of 324 product links were successfully crawled.
+-Cats category: 2,249 out of 2,254 product links were successfully crawled (the remaining 5 product links appear to be duplicates).
+
+All the data has been stored in MongoDB.
