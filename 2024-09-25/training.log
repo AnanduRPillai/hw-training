@@ -1,0 +1,29 @@
+1- Creation of a New Collection:
+A new collection was successfully created in the MongoDB database to store a copy of the existing data.
+
+2- Data Duplication:
+A Python script was executed to copy the existing data into the newly created collection, ensuring all relevant information is preserved.
+
+3- Additional Fields Added:
+The following fields were included in the new collection to enhance data organization and accessibility:
+currency: The currency type for pricing (e.g., EUR).
+file_name_1: The name of the first associated file (e.g., 4066447615852_1.png).
+image_url_1: The URL of the first image associated with the product.
+file_name_2: The name of the second associated file.
+image_url_2: The URL of the second image associated with the product.
+file_name_3: The name of the third associated file.
+image_url_3: The URL of the third image associated with the product.
+file_name_4: The name of the fourth associated file.
+image_url_4: The URL of the fourth image associated with the product.
+file_name_5: The name of the fifth associated file.
+image_url_5: The URL of the fifth image associated with the product.
+file_name_6: The name of the sixth associated file.
+(upto n)
+
+4. Python Code for Data Update:
+Two Python scripts were implemented:
+The first script created the new collection.
+The second script was responsible for updating the data within the newly copied collection with the additional fields.
+
+5. Execution and Outcome:
+Both scripts executed successfully, resulting in the updated data being accurately reflected in the new collection without any issues.
