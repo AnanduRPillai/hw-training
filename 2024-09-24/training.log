@@ -1,0 +1,24 @@
+1- New Fields Added:
+    I have enhanced my parser code by introducing additional fields to capture more detailed product information. These fields are:
+
+       -unique_id
+       -product_name
+       -brand
+       -product_hierarchy_level1 through product_hierarchy_level7 (to represent the product category structure)
+       -regular_price
+       -selling_price
+       -price_per_unit
+       -breadcrumb (which captures the navigation path of the product on the website)
+       -pdp_url (Product Detail Page URL)
+       -product_description
+       -image_urls
+
+2- Parsing Results:
+    Using the updated code, I have successfully parsed around 2,248 product records. These records contain the newly added fields, providing a richer dataset.
+
+3- Data Storage:
+    The parsed product data has been saved in two places:
+
+    JSONL File: All 2,248 product records have been stored in a JSONL (JSON Lines) file, ensuring that each record is written in a structured, line-by-line format.
+    MongoDB Database: The same data has also been saved in my MongoDB collection, ensuring easy querying and further analysis.
+    Performance Improvements: While the code is running efficiently, I’m considering ways to further optimize its performance for faster parsing without altering the core functionality.
