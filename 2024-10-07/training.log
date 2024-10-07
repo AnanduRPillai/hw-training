@@ -1,0 +1,11 @@
+Today, a new task has been assigned to crawl the website and parse the agent URLs, which will include the following details:
+
+1- Agent Name: The full name of the agent.
+2- Contact Information: Phone numbers and email addresses.
+3- Biographical Details: Background information about the agent, including their experience and specialties.
+4- Social Media Links: Links to the agent’s profiles on platforms like Facebook, LinkedIn, Twitter, and Instagram.
+5- Profile Image URL: The URL for the agent's profile image.
+6- Address: The location of the agent's office.
+
+The crawling process is currently in progress.
+
