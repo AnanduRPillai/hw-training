@@ -1,0 +1,22 @@
+Today, I completed the code development for our project and successfully parsed the data. The fields I was able to extract include:
+
+URL
+Title
+Location
+Price
+Max Price
+Type
+Property Type
+Details
+Reference Number
+Bedrooms
+Bathrooms
+Delivery In
+Compound
+Sale Type
+Finishing
+Ready By
+Iteration Number
+Date
+
+All the data get extracted successfully.
