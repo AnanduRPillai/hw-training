@@ -1,0 +1,23 @@
+Today, I completed the code development for another site and successfully extracted the data. I managed to extract all the following fields:
+
+first_name
+middle_name
+last_name
+office_name
+title
+description
+languages
+image_url
+address
+city
+state
+country
+zipcode
+office_phone_numbers
+agent_phone_numbers
+email
+website
+social
+profile url
+
+All fields and their related data were extracted successfully without any issues.
